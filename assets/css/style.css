@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+cursor:pointer;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    gap:15px;
+    background-color: rgb(238, 237, 237);
+    padding: 50px;
+    
+}
+form{
+    background:white;
+    box-shadow: 0px 0px 3px .2px;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+.intro h1{
+    color: rgb(103, 74, 207);
+    padding: 25px 0;
+    margin-top: 35px;
+
+}
+.form-layout{
+    width: 400px;
+}
+.intro p{
+    font-size: 20px;
+}
+.form-layout{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.user-info p{
+    text-align: center;
+    padding: 10px;
+}
+.user-info input{
+    padding: 10px;
+    border:1px solid rgba(125, 125, 226, 0.452);
+    outline: none;
+    height: 42px;
+}
+.user-info button{
+
+    outline: none;
+    border:none;
+    height: 42px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+}
+.user-info button,input{
+    border-radius:6px;
+}
+.create-account button{
+    border-radius: 6px;
+    background: #0aaf2e;
+    text-align: center;
+    padding: 10px;
+    border:none;
+    color:white;
+font-weight: bold;
+}
+.create-account{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.login-footer a{
+    color:black;
+    font-weight: bold;
+}
+@media(max-width:970px){
+    .container{
+        width: 800px;
+        margin:0px 50px;
+        padding:25px;
+    }
+}
+@media(max-width:870px){
+    .container{
+        width: 770px;
+        margin:0px 50px;
+        padding:10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro{
+        padding:0px 0px 50px;
+    }
+}
